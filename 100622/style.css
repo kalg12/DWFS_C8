@@ -1,0 +1,25 @@
+:root {
+    font-size: 22px;
+}
+
+/* Tipografía */
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+
+div {
+    font-family: 'Courgette', cursive;
+    font-size: 1rem;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 24px;
+    grid-row-gap: 16px;
+}
+
+img{
+    width: 50%;
+    height: 50%;
+}

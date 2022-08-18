@@ -1,0 +1,48 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: #ff8;
+}
+
+.form-container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-title{
+    font-size: 2rem;
+}
+
+.form-input{
+    height: 32px;
+    width: 256px;
+    margin-top: 12px;
+    border-radius: 20px;
+}
+
+.form-input::placeholder{
+    text-align: center;
+}
+
+.form-input{
+    text-align: center;
+}
+
+.btn-login{
+    margin: 48px;
+    width: 128px;
+    height: 32px;
+}
+
+.btn-createAccount{
+    margin-top: 20px;
+    width: 112px;
+    height: 24px;
+}

@@ -1,0 +1,19 @@
+{
+  "name": "ejemplobackend",
+  "version": "1.0.0",
+  "description": "Ejemplo de como usar nodemon en nuestros proyectos",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "author": "Kevin Luciano",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1"
+  }
+}

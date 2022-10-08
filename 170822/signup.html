@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sing Up</title>
+    <link rel="stylesheet" href="./src/styles/style.css">
+</head>
+<body>
+    <section class="container">
+        <article class="form-container">
+            <h1 class="login-title">Sign Up</h1>
+            <input id="email" type="text" class="form-input" placeholder="example@email.com">
+            <input id="password" type="password" class="form-input" placeholder="password">
+            <button onclick="postData()" id="btn-login" class="btn-login">Registrarse</button>
+            <h5>Si ya tienes cuenta, inicia sesión aquí 👇🏻</h5>
+            <button onclick="window.location.href='./index.html'"  id="btn-createAccount" class="btn-createAccount">Iniciar sesión</button>
+        </article>
+    </section>
+    <script src="./src/js/main.js"></script>
+</body>
+</html>
